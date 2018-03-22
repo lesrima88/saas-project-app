@@ -13,7 +13,7 @@ gem 'pg', '~> 0.18'
 
 gem 'devise'
 
-gem 'milia', github: 'jekuno/milia', branch: 'issue#76' 
+gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -29,6 +29,9 @@ gem 'coffee-rails', '~> 4.2'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
